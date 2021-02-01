@@ -1,39 +1,32 @@
-### Compatibilidade
+### Compatibility
 
- OpenCart 1.5 ou superior, deve pegar também em Opencarts mais antigos
+ OpenCart 1.5 or higher, should also pick up older OpenCarts
+ 
+ ### Functionalities
+ 1. Complete the user friendly URL, categories and informative pages
+ 2. Made in JavaScript, complete in real time based on the title
+ 
+ ### Configuration
+ 1. Open the XML Felipo-complete-url-friendvel.xml
+ 2. Search for: <br>
+ * Product_description [1] [name]
+ * category_description [1] [name]
+ * information_description [1] [title]
+ Change 1 by the site's main ID number number.
 
-### Funcionalidades
+ To know what ID is, click Edit in the main language and URL look for Language_ID = 1
+ 3. Save the file
+ 
+ ### Installation
 
- 1. Completa a URL Amigável dos Produtos, Categorias e Páginas Informativas
- 2. Feita em Javascript, completa em tempo real com base no Título
+ 1. Submit the admin and vqmod folder to the root of your store
+ 2. If you do not have VQMOD installed, install it https://code.google.com/p/vqmod/downloads/list, download the 2.4.1 to OpenCart
+ 3. Create / edit a product, category or information page and see that the friendly URL is correctly completed
+ 4. Activate the friendly URL in the store to see the final result
 
-### Configuração
-1. Abra o xml Felipo-Completar-Url-Amigavel.xml
-2. Procure por:<br>
-* product_description[1][name]
-* category_description[1][name]
-* information_description[1][title]
-Troque o 1 pelo número do ID da linguagem principal do site.
+ ### How to contribute
+ 1. Make a project fork and edit the files you want.
+ 2. Make a pull so that your suggestions for improvements are evaluated and accepted if approved.
+ 3. Check our website and see if you have any module you want to buy - http://www.codemarket.com.br
 
-Para saber qual é o ID, clica em Editar na linguagem principal e na URL procure por language_id=1
-3. Salve o arquivo
-
-### Instalação
-
- 1. Enviei a pasta admin e vqmod para a raiz da sua loja
- 2. Caso não tenha o vQmod instalado, instale ele https://code.google.com/p/vqmod/downloads/list , baixa o 2.4.1 para Opencart
- 3. Crie/Edite um Produto, Categoria ou Pagina de Informação e veja que a Url Amigável é completada de forma correta
- 4. Ative a Url Amigável na loja para ver o resultado final
-
-### Como contribuir
-
- 1. Faça um Fork do projeto e edite os arquivos que desejar.
- 2. Faça um Pull para que suas sugestões de melhorias sejam avaliadas e aceitas, caso aprovadas.
- 3. Verifique nosso site e veja se tem algum módulo que queira comprar - http://www.codemarket.com.br
- 4. Seja um desenvolvedor da Code Market - http://www.codemarket.com.br
-
-### Licença
-Proibido qualquer comercialização da mesma, use em seus Projetos, mas não cobre dos seus clientes por algo gratuito.
-
-Mantido e revisado pela comunidade OpenCart Brasil e Code Market
-[GNU General Public License version 3 (GPLv3)](https://github.com/codemarketOficial/Felipo-Completar-Url-Amigavel/blob/master/LICENSE)
+ [GNU General Public License Version 3 (GPLV3)] (https://github.com/codemarketoficial/felipo-complete-url-amigavel/blob/master/license)
